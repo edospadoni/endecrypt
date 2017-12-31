@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <input v-model="hash" placeholder="Insert your Hash"></input>
+    <input class="hash-write" v-model="hash" placeholder="Insert your Hash"></input>
     <input v-model="passphrase" placeholder="Insert your Passphrase"></input>
     <button v-on:click="decrypt()">Decrypt</button>
-    <input class="hash" v-model="secret" placeholder="" readonly></input>
+    <input class="hash-read" v-model="secret" placeholder="" readonly></input>
     <router-link class="router-back" to="/encrypt">Encrypt</router-link>
   </div>
 </template>

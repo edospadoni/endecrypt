@@ -34,6 +34,8 @@
     margin-bottom: 15px;
     width: 30%;
     font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
   }
 
   button {
@@ -54,7 +56,11 @@
     color: #42b983;
   }
 
-  .hash {
+  .hash-write {
+    width: 50%;
+  }
+
+  .hash-read {
     border: none;
     width: 75%;
     font-size: 25px;
