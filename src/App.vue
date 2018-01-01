@@ -23,7 +23,7 @@
 
   h1 {
     font-weight: normal;
-    font-size: 75px;
+    font-size: 55px;
   }
 
   input {
@@ -69,6 +69,27 @@
   .router-back {
     font-size: 20px;
     margin-top: 20px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-weight: normal;
+      font-size: 35px;
+    }
+    a {
+      font-size: 25px;
+    }
+    input {
+      width: 75%;
+    }
+    button {
+      width: 30%;
+    }
   }
 
 </style>
