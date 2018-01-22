@@ -43,7 +43,7 @@
     border: 1px solid #d8d8d8;
     height: 30px;
     margin-bottom: 15px;
-    width: 8%;
+    width: 20%;
     font-size: 15px;
     color: white;
     font-weight: bold;
@@ -64,6 +64,10 @@
     border: none;
     width: 75%;
     font-size: 25px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
   }
 
   .router-back {
