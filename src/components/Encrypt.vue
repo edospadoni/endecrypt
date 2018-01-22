@@ -4,7 +4,7 @@
     <input v-model="secret" placeholder="Insert your Secret"></input>
     <input v-model="passphrase" placeholder="Insert your Passphrase"></input>
     <button v-on:click="encrypt()">Encrypt</button>
-    <input class="hash-read" v-model="hash" placeholder="" readonly></input>
+    <textarea class="hash-read" v-model="hash" placeholder="" readonly></textarea>
     <router-link class="router-back" :to="{ path: '/decrypt/' + escape(hash)}">Decrypt</router-link>
   </div>
 </template>
